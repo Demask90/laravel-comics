@@ -1,0 +1,17 @@
+.comics {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .comic {
+        width: calc(100% / 6);
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
