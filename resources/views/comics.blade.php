@@ -3,9 +3,9 @@
 @section('title', 'Comics')
 
 @section('content')
-    <div class="comics">
+    <ul class="comics">
         @foreach ($comics as $comic)
-        <div class="comic">
+        <li class="comic">
             <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}"> 
             <div>{{$comic['title']}}</div>
         </div>

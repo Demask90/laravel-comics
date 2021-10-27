@@ -1,5 +1,35 @@
 <?php
 
+    return $footDCComics = [
+        [
+            'text' => 'Characters',
+            'url' => '#',
+        ],
+        [
+            'text' => 'Comics',
+            'url' => '#',
+        ],
+        [
+            'text' => 'Movies',
+            'url' => '#',
+        ],
+        [
+            'text' => 'TV',
+            'url' => '#',
+        ],
+        [
+            'text' => 'Games',
+            'url' => '#',
+        ],
+        [
+            'text' => 'Videos',
+            'url' => '#',
+        ],
+        [
+            'text' => 'News',
+            'url' => '#',
+        ],
+    ];
 
     return $footShop = [
         [
@@ -82,4 +112,4 @@
         ],
     ];
 
-    // export default [, footShop, footDC, footSites];
+    // export default [headerLinks , footDCComics, footShop, footDC, footSites];
